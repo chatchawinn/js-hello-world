@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  return res.send('<h1>Merry chistmas i โง่</h1>')
+  return res.send('<h1>Happy new years</h1>')
 })
 
 const PORT = process.env.PORT || 3000
